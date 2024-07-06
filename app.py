@@ -16,5 +16,10 @@ def index():
     return render_template('mem.html')
 
 
+@app.route('/about')
+def index():
+    return render_template('mem.html')
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
