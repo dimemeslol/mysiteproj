@@ -17,4 +17,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(host=ALLOWED_HOSTS, port=80)
+    app.run(host=ALLOWED_HOSTS, port=5000)
