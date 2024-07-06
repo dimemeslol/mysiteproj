@@ -17,7 +17,7 @@ def index():
 
 
 @app.route('/about')
-def index():
+def main():
     return render_template('mem.html')
 
 
