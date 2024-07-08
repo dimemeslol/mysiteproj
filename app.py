@@ -18,8 +18,8 @@ def index():
 
 @app.route('/about')
 def main():
-    return render_template('mem.html')
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run()
