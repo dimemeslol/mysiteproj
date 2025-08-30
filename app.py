@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route('/mem')
 def index():
-    return render_template('mem.html')
+    return render_template('templates/mem.html')
     
 
 if __name__ == '__main__':
